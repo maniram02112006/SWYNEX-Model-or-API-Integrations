@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets (this project uses none, but never commit them)
+.env
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large training data (not needed to run the app)
+*.zip
